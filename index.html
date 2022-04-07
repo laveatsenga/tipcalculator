@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Andada+Pro:ital@1&display=swap" rel="stylesheet">
+  <title>Tip Calculator</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Tip Calculator</h1>
+    <form action="">
+      <div class="control">
+        <p>Total Bill</p> 
+        <input type="number" id="totalBill">
+      </div>
+      <div class="control">
+        <p>Tip Percentage</p>
+        <input type="number" id="tipPercentage">
+      </div>
+    </form>
+    <p>Split the bill</p>
+    <input type="number" name="" id="split"> <br>
+    <button id="calculate">Calculate</button>
+    <div class="amountDisplay">
+      <div class="totalTip">
+        <p>Total Tip Per Person</p>
+        <p class="tip"> <span id="tip">0.00</span></p>
+      </div>
+      <div class="totalPayableBill">
+        <p>Total Amount To be Paid per person</p>
+        <p class="payableBill"><span id="payableBill">0.00</span></p>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="script.js"></script>
+</html>

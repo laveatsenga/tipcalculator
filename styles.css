@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  position: relative;
+  height: 100vh;
+  font-size: 20px;
+  background-color: #CAF0F8;
+}
+.container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid #005B96;
+  width: 425px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 15px #A7DCA5;
+  background-color: #FFF;
+  text-align: center;
+}
+.container h1 {
+  font-family: 'Cormorant Garamond', serif;
+  text-align: center;
+  background-color: #03396C;
+  border-radius: 5px;
+  padding: 10px;
+  color: #B3CDE0;
+}
+.control {
+  margin: 25px 0;
+}
+.control p {
+  font-family: 'Andada Pro', serif;
+}
+input {
+  border: 3px solid #005B96;
+  border-radius: 5px;
+  height: 6vh;
+}
+button#calculate {
+  margin: 25px;
+  border: 1px solid #000;
+  border-radius: 50px;
+  font-size: 20px;
+  padding: 10px;
+  background-color: #005B96;
+  color: #fff;
+}
+button:hover {
+  background-color: #B3CDE0;
+}
+.amountDisplay {
+  background-color: #B3CDE0;
+  padding: 10px;
+}
+.amountDisplay .tip, .payableBill {
+  font-size: 25px;
+  color: #03396C;
+  font-weight: bold ;
+}
